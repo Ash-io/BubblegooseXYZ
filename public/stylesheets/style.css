@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white !important;
+  background-color: black !important;
+}
+
+a {
+  color: #00B7FF;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+.img-thumbnail{
+  max-height: 200px !important;
+  /* max-width: 230px !important; */
+}
+.thumb{
+  /* margin-top: 15px; */
+  margin-bottom: 5px;
+}
