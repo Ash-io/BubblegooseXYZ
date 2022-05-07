@@ -2,13 +2,13 @@ let modalId = $('#image-gallery');
 
 $(document)
   .ready(function () {
-      for (let index = 1; index < 44; index++) {
+      for (let index = 1; index < 24; index++) {
         $("#llm").append(`    <div class="col-lg-3 col-sm-12 col-md-4 thumb">
         <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-           data-image="/images/BubblegooseXYZ/${index}.jpeg"
+           data-image="/images/NFT/${index}.jpeg"
            data-target="#image-gallery">
             <img class="img-thumbnail"
-                 src="/images/BubblegooseXYZ/${index}.jpeg"
+                 src="/images/NFT/${index}.jpeg"
                  alt="Another alt text" width="500" height="10">
         </a>
         </div>`)
